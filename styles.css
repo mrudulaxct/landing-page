@@ -298,3 +298,52 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for the image */
   width: 900px;
 }
+
+.code-efficiently{
+  display: flex; /* Flexbox for side-by-side layout */
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Align items vertically */
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto; /* Center the container */
+}
+
+.text {
+  flex: 1; /* Text section takes 50% of the width */
+  padding-right: 20px;
+}
+
+.text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.text a {
+  color: #3498db; /* Link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
+
+.img1 {
+  flex: 2; /* Image section takes 50% of the width */
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.img1 img {
+  max-width: 90%;
+  border-radius: 8px; /* Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for the image */
+  width: 900px;
+}
