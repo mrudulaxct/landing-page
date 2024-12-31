@@ -211,3 +211,29 @@ body {
 .btn-replay:hover {
   background-color: #444;
 }
+
+.steps {
+  display: flex; /* Flexbox layout */
+  justify-content: space-around; /* Distribute images evenly */
+  align-items: center; /* Vertically align items */
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.image-card {
+  max-width: 30%; /* Limit the width of each image card */
+  text-align: center;
+  border: 1px solid #584b4b;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.image-card img {
+  width: 100%; /* Make the image responsive */
+  border-radius: 8px;
+}
+
+.image-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
