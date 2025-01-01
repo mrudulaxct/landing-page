@@ -347,3 +347,35 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for the image */
   width: 900px;
 }
+
+.code-in-any-language{
+  display: flex; /* Flexbox for side-by-side layout */
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Align items vertically */
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto; /* Center the container */
+}
+
+.txt {
+  flex: 1; /* Text section takes 50% of the width */
+  padding-right: 20px;
+}
+
+.txt h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.txt p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.img2 {
+  flex: 0; /* Image section takes 50% of the width */
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
